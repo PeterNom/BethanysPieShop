@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 {
     options.UseSqlServer(
-        builder.Configuration["ConnectionStrings:BethanysPieShopContextConnections"]);
+        builder.Configuration["ConnectionStrings:BethanysPieShopContextConnection"]);
 });
 
 var app = builder.Build();
