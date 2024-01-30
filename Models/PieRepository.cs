@@ -30,7 +30,13 @@ namespace BethanysPieShop.Models
 
         public Pie? GetPieById(int pieId)
         {
+            return _bethanysPieShopDbcontext.Pies.FirstOrDefault(p => p.PieId== pieId);
+        }
+
+        public IEnumerable<Pie> SearchPies(string searchQuery)
+        {
             throw new NotImplementedException();
         }
+
     }
 }
