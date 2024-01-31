@@ -21,6 +21,8 @@ builder.Services.AddControllersWithViews()
 
 builder.Services.AddRazorPages();
 
+builder.Services.AddServerSideBlazor();
+
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 {
     options.UseSqlServer(
@@ -41,6 +43,9 @@ if(app.Environment.IsDevelopment())
 
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
+
+app.MapBlazorHub();
+app.MapFallbackToPage("/app/{*catchall}", "/App/Index");
 
 DbInitializer.Seed(app);
 
