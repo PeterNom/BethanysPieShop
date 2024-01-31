@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShop", "BethanysPieShop.csproj", "{347E6BAB-EE55-41D2-BE02-223E4441D1C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopTests", "..\BethanysPieShopTests\BethanysPieShopTests.csproj", "{350F77D9-B068-49F3-94B0-00C20636CAB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{347E6BAB-EE55-41D2-BE02-223E4441D1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{347E6BAB-EE55-41D2-BE02-223E4441D1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{347E6BAB-EE55-41D2-BE02-223E4441D1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350F77D9-B068-49F3-94B0-00C20636CAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350F77D9-B068-49F3-94B0-00C20636CAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350F77D9-B068-49F3-94B0-00C20636CAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350F77D9-B068-49F3-94B0-00C20636CAB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
